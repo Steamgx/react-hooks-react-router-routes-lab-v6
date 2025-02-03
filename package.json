@@ -35,5 +35,9 @@
     "lint": "eslint .",
     "test": "vitest run --reporter=@learn-co-curriculum/jest-learn-reporter --reporter=default",
     "preview": "vite preview"
-  }
+     
 }
+
+  }
+
+
