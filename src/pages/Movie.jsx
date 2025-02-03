@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar.jsx";
 
 function Movie() {
   const [movie, setMovie] = useState([]);
@@ -28,6 +28,7 @@ function Movie() {
         {genre}
       </main>
     </>
+    
   );
 };
 
